@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import AuthContext from './context/AuthContext.jsx'
-import Userprotected from './context/userprotected.jsx'
+import Userprotected from './context/Userprotected.jsx'
 import Shopdatacontext from './context/Shopdatacontext.jsx'
 
 createRoot(document.getElementById('root')).render(
