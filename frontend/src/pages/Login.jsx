@@ -8,7 +8,7 @@ import axios from 'axios';
 import { authDataContext } from '../context/AuthContext';
 import { auth, provider } from '../../utils/firebase'
 import { signInWithPopup } from 'firebase/auth';
-import { userdatacontext } from '../context/userprotected';
+import { userdatacontext } from '../context/Userprotected';
 import { toast } from 'react-toastify';
 
 
