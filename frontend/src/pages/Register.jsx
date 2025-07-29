@@ -10,7 +10,7 @@ import { useContext } from 'react';
 import { authDataContext } from '../context/AuthContext';
 import { signInWithPopup } from 'firebase/auth'
 import { auth, provider } from '../../utils/firebase'
-import { userdatacontext } from '../context/userprotected'
+import { userdatacontext } from '../context/Userprotected'
 import { toast } from 'react-toastify';
 
 const Register = () => {
