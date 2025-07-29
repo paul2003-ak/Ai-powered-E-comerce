@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import onecart from "../assets/vcart logo.png"
 import { IoSearchCircleOutline } from "react-icons/io5"; import { FaUserCircle } from "react-icons/fa";
 import { IoMdCart } from "react-icons/io";
-import { userdatacontext } from '../context/userprotected';
+import { userdatacontext } from '../context/Userprotected';
 import { IoSearchCircle } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
