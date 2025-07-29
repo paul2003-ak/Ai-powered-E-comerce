@@ -20,7 +20,7 @@ const app=express();
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:["https://ai-powered-e-comerce-frontend-one.onrender.com" , "https://ai-powered-e-comerce-adminpart.onrender.com"],
+    origin:["https://ai-powered-e-comerce-frontend-one.onrender.com" , "https://ai-powered-e-comerce-admin-one.onrender.com"],
     credentials:true
 }))
 
