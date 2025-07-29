@@ -4,7 +4,7 @@ export const authDataContext=createContext();
 
 const AuthContext = ({children}) => {
 
-    const serverUrl="http://localhost:8000"
+    const serverUrl="https://ai-powered-e-comerce-backend.onrender.com"
 
     const value={
         serverUrl
