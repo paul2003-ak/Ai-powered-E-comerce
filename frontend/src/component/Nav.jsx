@@ -29,6 +29,7 @@ export const Nav = () => {
             toast.success("Logout successful!");
             console.log(result.data);
             getcurruser();
+            navigate("/login")
         } catch (error) {
             console.log(error)
             toast.error("Logout failed.");
